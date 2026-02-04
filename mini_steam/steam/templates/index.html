@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Главная страница - Steam</title>
+</head>
+<body>
+    <h1>Добро пожаловать в Steam!</h1>
+    
+    <h2>Меню:</h2>
+    <ul>
+        <li><a href="{% url 'game_create' %}">Добавить игру</a></li>
+        <li><a href="{% url 'achivment_create' %}">Добавить достижение</a></li>
+        <li><a href="{% url 'user_achivment_create' %}">Добавить связь пользователь-достижение</a></li>
+        <li><a href="{% url 'order_create' %}">Добавить заказ</a></li>
+    </ul>
+</body>
+</html>
